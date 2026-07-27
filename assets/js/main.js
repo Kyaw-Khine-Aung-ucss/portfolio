@@ -1,16 +1,8 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Jun 29 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 (function() {
   "use strict";
 
-  /**
-   * Header toggle
+  /*
+    Header toggle
    */
   const headerToggleBtn = document.querySelector('.header-toggle');
 
@@ -33,20 +25,8 @@
 
   });
 
-  /**
-   * Toggle mobile nav dropdowns
-   */
-  document.querySelectorAll('.navmenu .toggle-dropdown').forEach(navmenu => {
-    navmenu.addEventListener('click', function(e) {
-      e.preventDefault();
-      this.parentNode.classList.toggle('active');
-      this.parentNode.nextElementSibling.classList.toggle('dropdown-active');
-      e.stopImmediatePropagation();
-    });
-  });
-
-  /**
-   * Preloader
+  /*
+    Preloader
    */
   const preloader = document.querySelector('#preloader');
   if (preloader) {
@@ -55,8 +35,8 @@
     });
   }
 
-  /**
-   * Scroll top button
+  /*
+    Scroll top button
    */
   let scrollTop = document.querySelector('.scroll-top');
 
@@ -76,8 +56,8 @@
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);
 
-  /**
-   * Animation on scroll function and init
+  /*
+    Animation on scroll function and init
    */
   function aosInit() {
     AOS.init({
@@ -89,8 +69,8 @@
   }
   window.addEventListener('load', aosInit);
 
-  /**
-   * Init typed.js
+  /*
+    Init typed.js
    */
   const selectTyped = document.querySelector('.typed');
   if (selectTyped) {
@@ -105,8 +85,8 @@
     });
   }
 
-  /**
-   * Correct scrolling position upon page load for URLs containing hash links.
+  /*
+    Correct scrolling position upon page load for URLs containing hash links.
    */
   window.addEventListener('load', function(e) {
     if (window.location.hash) {
@@ -123,8 +103,8 @@
     }
   });
 
-  /**
-   * Navmenu Scrollspy
+  /*
+    Navmenu Scrollspy
    */
   let navmenulinks = document.querySelectorAll('.navmenu a');
 
