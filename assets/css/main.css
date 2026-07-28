@@ -370,7 +370,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Global Sections
+# Global Sections and animation
 --------------------------------------------------------------*/
 section,
 .section {
@@ -378,6 +378,14 @@ section,
   background-color: var(--background-color);
   padding: 60px 0;
   overflow: clip;
+}
+
+.move-transition {
+  transition: all .25s ease;
+}
+
+.move-transition:hover {
+  transform: scale(1.10);
 }
 
 /*--------------------------------------------------------------
