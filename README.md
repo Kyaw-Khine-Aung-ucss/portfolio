@@ -42,6 +42,7 @@ Portfolio/
 ├── .gitignore
 └── README.md
 ```
+
 ## 📸 Screenshot
 
 ![Portfolio Screenshot](assets/img/screenshot.jpg)
@@ -49,6 +50,17 @@ Portfolio/
 ```
 
 ## 📁 Featured Projects
+
+### PHP Authentication System
+A user authentication system built with PHP and MySQL.
+It includes user registration, login, password hashing, profile editing, and authentication features.
+
+**Technologies:** PHP, MySQL, HTML, CSS, Bootstrap
+
+**GitHub**
+- 🔗 https://github.com/Kyaw-Khine-Aung-ucss/php-authentication-system
+
+---
 
 ### 🌦️ Weather App
 
@@ -83,3 +95,4 @@ https://github.com/Kyaw-Khine-Aung-ucss/to-do-list
 ## 📄 License
 
 This project is for educational and portfolio purposes.
+```
