@@ -84,6 +84,23 @@ https://kyaw-khine-aung-todo-list.netlify.app
 **GitHub**
 https://github.com/Kyaw-Khine-Aung-ucss/to-do-list
 
+---
+
+### Age Calculator
+A simple and responsive age calculator that calculates a user's age based on their date of birth.
+
+**Technologies:** HTML, CSS, JavaScript
+
+**Live Demo**
+https://kyaw-kyaw-aung-age-calculator.netlify.app/
+
+**GitHub**
+https://github.com/Kyaw-Khine-Aung-ucss/age-calculator
+
+---
+
+
+
 ## 👨‍💻 Author
 
 **Kyaw Khine Aung**
